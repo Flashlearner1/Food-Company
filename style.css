@@ -136,17 +136,41 @@ header ul a:hover{
     color: #fff;
     font-weight: 600;
     font-size: 30px;
+    word-spacing: 3px;
 }
-
-.snack {
+.snack-img img{
+    width: 200px;
+    height: 180px;
+}
+.snack{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 100px 200px 100px 110px;
+    justify-content: center;
+    height: 400px;
 }
-.snack img{
-    width: 200px;
-    height: auto;
+.snack-container {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: #feeee7;
+    margin: 20px 20px 0px 0px;
+    padding: 20px 75px 15px 75px;
+    border-radius: 8px;
+}
+.snack-container h2{
+    font-size: 20px;
+    line-height: 10px;
+    padding-top: 10px;
+}
+.snack-container h3{
+    font-size: 15px;
+    line-height: 40px;
+    padding-top: 3px;
+}
+.snack-container span{
+    color: #ff702a;
+    font-weight: 600;
 }
 
 /* Service section styling*/
@@ -154,7 +178,7 @@ header ul a:hover{
     display: inline-block;
     align-items: center;
     justify-content: center;
-    padding: 0px 0px 0px 700px;
+    padding: 100px 0px 0px 700px;
 }
 .S-text span{
     color: #ff702a;
@@ -190,6 +214,9 @@ header ul a:hover{
 }
 .pick p{
     color: #fff;
+}
+.pick{
+    margin-top: -70px;
 }
 
 /* Motto styling*/
@@ -230,7 +257,6 @@ header ul a:hover{
     width: 50px;
     left: 0;
     bottom: -8px;
-    background: var(--main-color);
 }
 
 .Menu-links ul li a{
